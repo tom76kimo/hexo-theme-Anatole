@@ -21,7 +21,7 @@ block content
       .twitter
         a.fa.fa-twitter(href=url_for("http://twitter.com/home?status="+","+config.url+"/"+page.path+","+config.title+","+page.title+",;"))
     .facebook
-        iframe(src="https://www.facebook.com/plugins/like.php?href="+config.url+"/"+page.path+"&width=89&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId=1794411820874236", width="89", height="28", style="border:none;overflow:hidden;margin-left:25px;margin-top:20px;", scrolling="no", frameborder="0", allowTransparency="true")
+        iframe(src="https://www.facebook.com/plugins/like.php?href="+config.url+"/"+page.path+"&width=89&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId=1794411820874236", width="100", height="28", style="border:none;overflow:hidden;margin-left:25px;margin-top:20px;", scrolling="no", frameborder="0", allowTransparency="true")
     - var prev = page.prev ? page.prev.path : false;
     - var next = page.next ? page.next.path : false;
     .pagination
