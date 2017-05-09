@@ -13,3 +13,7 @@ duoshuo:
 disqus: tom76kimo
 
 root: '/blog'
+
+# Analytics
+# google-analytics:
+ga: UA-46674413-7
